@@ -1,0 +1,16 @@
+Please implement the following collaborating programs: one generates random
+numbers, and it sends them via a socket to the other one.
+The second one reads them, and computes their sum.
+We do not know in advance the number of elements; the `producer' has to signal
+somehow the end of the sequence, e.g., via sending a special message with
+`FINISH' instead of the number, or whatever else.
+
+Both: TCP and UDP sockets can be used; the choice is yours.
+
+Admissible languages: C# and Python.
+
+Please work in teams of c.a. three persons (probably the same ones, as for
+project I).
+
+The results should be **sent via email** to my Vistula account, with the subject ``DCS project 2''.
+
